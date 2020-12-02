@@ -26,6 +26,7 @@ class MainActivity : AppCompatActivity() {
             Providers(AmbientBackPressedDispatcher provides this) {
                 JetMessengerTheme {
                     Root()
+                    // some comment
                 }
             }
         }
